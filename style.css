@@ -10,7 +10,9 @@
 }
 p{
    font-size: larger;
-   margin-right: 20px;
+   margin-right: 50px;
+   margin-top: 50px;
+   color: white;
 }
 label {
     display: block;
@@ -27,6 +29,17 @@ input[type="collect data"],
     padding: 5px;
     margin-bottom: 10px;
     padding: 10px;
-    margin: 10px;
+   margin: 10px;
   }
- 
+ button{
+    border:none;
+    width: 61px;
+    height: 36px;
+    top: 533px;
+    left: 493px;
+    background-color:black;
+    color: white;
+
+ }
+ h1{
+ }
