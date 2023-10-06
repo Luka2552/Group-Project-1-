@@ -54,8 +54,8 @@ button {
 }
 
 .sidebar {
-  width: 400px;
-  height: 900px;
+  width: 25rem;
+  height: 100vh;
   background: #2f80ed;
   color: #fff;
   display: flex;
@@ -175,4 +175,56 @@ span {
 .image-container {
   text-align: center;
   padding-right: 200px;
+}
+
+
+/* Dashboard */
+.dashboard-body{
+  display: flex;
+}
+table{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+table ul{
+  text-decoration: none;
+  list-style-type: none;
+}
+table caption{
+  text-align: start;
+  font-size: 1.5rem;
+  color: 515151;
+}
+thead tr th{
+  color: #333;
+  font-size: 1.125rem;
+  text-align: start;
+}
+.views ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  width: 15.1875rem;
+  height: 9.375rem;
+  border-radius: 1.5625rem;
+  color: #fff;
+}
+.views ul li:first-child{
+  font-size: 2.25rem;
+}
+.views ul li:last-child{
+  font-size: 0.75rem;
+}
+.pages-country-state tr td{
+  border: 1px solid #BDBDBD;
+}
+.pages-country-state  ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.0625rem;
 }
